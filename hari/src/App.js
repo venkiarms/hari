@@ -4,10 +4,10 @@ import './App.css';
 import React, {useState,useEffect} from 'react';
 
 function App() {
-  const [first, setfirst] = useState('livewire')
+  const [firsts, setfirsts] = useState('livewire')
   
   const inc = () =>{
-    setfirst('user')
+    setfirst('users')
   }
 
   useEffect(()=>{
