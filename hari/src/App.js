@@ -7,7 +7,7 @@ function App() {
   const [first, setfirst] = useState('livewire')
   
   const inc = () =>{
-    setfirst('users')
+    setfirst('user')
   }
 
   useEffect(()=>{
